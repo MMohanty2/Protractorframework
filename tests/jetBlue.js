@@ -71,7 +71,7 @@ let loginUrl = browser.get('https://www.jetblue.com/');
                 return browser.driver.getCurrentUrl()
                     .then(nUrl => urlRegExp.test(nUrl))
 
-            },12000,"Not changing......");
+            },12000,"Not Changing......");
             //element(by.cssContainingText('.ng-star-inserted','Search flights' )).click();
             // browser.wait(function(){
             //     return browser.getCurrentUrl().then(function(nUrl){
